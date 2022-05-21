@@ -1,0 +1,69 @@
+@use '../variables/' as *;
+.skill-box-slides {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 50px;
+    .skills-slides {
+        font-size: 20px;
+        width: 50%;
+            .skills {
+                padding: 5px;
+                text-align: center;
+                .b-line {
+                    width: 90%;
+                    display: block;
+                    background-color: rgb(184, 184, 184);
+                    border-radius: 3px;
+                    box-shadow: 0 0 10px #2187e7b3;
+                    .line {
+                        text-align: right;
+                        padding-top: 1px;
+                        height: 2px;
+                        padding-right: 1px;
+                        color: $black;
+                        border-radius: 20px;
+                        background-color: #2187e7;
+                        animation: skills 2s;
+                    }
+                    .react {
+                        width: 85%;
+                    }
+                    .html {
+                        width: 80%;
+                    }
+                    .css {
+                        width: 70%;
+                    }
+                    .javascript {
+                        width: 70%;
+                    }
+                    .node {
+                        width: 80%;
+                    }
+                    .sql {
+                        width: 75%;
+                    }
+                    .java {
+                        width: 65%;
+                    }
+                    .wordpress {
+                        width: 60%;
+                    }
+                }
+            }
+    }
+}
+
+.title-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+// frames
+@keyframes skills {
+    0% {
+        width: 0%;
+    }
+}

@@ -1,0 +1,61 @@
+
+@use '../variables/' as *;
+@media(max-width: 1077px),
+(max-height: 680px)
+ {
+    .mod-contact {
+        height: 35%;
+        width: 35%;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .title-box h1{
+      font-size: 1em;
+    }
+    .title-text p{
+      font-size: 0.6em;
+    }
+    .title-text {
+      height: 200px;
+    }
+    .l-ne {
+      display: none;
+    }
+    .hamburger-react {
+      display: flex;
+      left: 10%;
+    }
+    .link{
+      height: 280px;
+      width: 7em;
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      align-items: center;
+      top: 10%;
+      border-radius: 0.2em;
+      background: transparent;
+      background-color: rgb(121, 121, 121);
+      opacity: 1;
+      transition: opacity 10ms ease;
+      z-index: 2;
+      .link-click {
+        margin: 0em;
+        z-index: 5;
+        &.active {
+          background-color: transparent;
+          text-decoration: underline 2px $black;
+          text-underline-offset: 0.5em;
+          transition: 50ms ease;
+          cursor: pointer;
+        }
+      }
+      &.closed {
+        .hamburger {
+          transform: none;
+        }
+        opacity: 0;
+      }
+    }
+  }

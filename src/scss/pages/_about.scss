@@ -1,0 +1,21 @@
+@use '../variables/' as *;
+
+.box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family;
+    .container-box {
+        width: 70%;
+        height: 80%;
+        .title-box {
+            font-size: 30px;
+            text-align: center;
+        }
+        .title-text {
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@use '../variables/' as *;
+.MainContainer {
+    .DarkDiv {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 50%;
+        z-index: 1;
+        transition: height 0.5s ease, width 1s ease 0.5s;
+    }
+    .Center {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 1s ease;
+        z-index: 1;
+    }
+    .Box {
+        height: 100%;
+        .SubBox {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .text {
+                width: 100%;
+                color: $black;
+                text-align: center;
+                .text-title{
+                    font-size: 4em;
+                }
+                .text-subtitle{
+                    font-size: 2em;
+                    color: 	$black;
+                    padding: 10px;
+                }
+                .line {
+                    border: 0.5px dashed $black; 
+                    width: 30%; 
+                    margin: auto; 
+                    margin-top: 2%; 
+                    margin-bottom: 2%;
+                }
+            }
+        }
+    }
+}

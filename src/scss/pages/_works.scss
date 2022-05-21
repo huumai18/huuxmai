@@ -1,0 +1,46 @@
+.profolio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .ctn {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .item {
+            width: 230px;
+            height: 150px;
+            border-radius: 20px;
+            border: 1px solid white;
+            margin: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+            transition: all .5s ease;
+            cursor: pointer;
+
+            h3{
+                position: absolute;
+                font-size: 20px;
+            }
+            img {
+                height: 140px;
+                width: 220px;
+                object-fit: cover;
+                z-index: 1;
+            }
+
+            &:hover {
+                background-color: rgb(36, 36, 36);
+                img {
+                    opacity: 0.2;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}
