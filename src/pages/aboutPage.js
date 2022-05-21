@@ -20,7 +20,7 @@ export const AboutPage = () => {
               Capstones Project with good at teamwork skills. Moreover, MongoDB,
               SQL Oracle, Node/Express JS and Nodemailer for additional my
               Back-End Skills. And, Java SE Platform for Developer skills. I am
-              willing to learn new enhance programming and design skills.c
+              willing to learn new enhance programming and design skills.
               <Typewriter
                 loop={0}
                 cursor
