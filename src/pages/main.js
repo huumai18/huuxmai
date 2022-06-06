@@ -70,7 +70,7 @@ export const Main = () => {
                     deleteSpeed={50}
                     delaySpeed={2000}
                     words={[
-                      "Full-stack Developer",
+                      "M.E.R.N Developer",
                       "Java Programmer",
                       "Database Oracle Admin",
                       "Willing To New Learning",

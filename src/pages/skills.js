@@ -11,16 +11,15 @@ export const Skills = () => {
           <div className="title-title">
             <p>
               Process bar skills for my Full-stack Developer with using React
-              JS, MaterialUI, HTML5, CSS3/SCSS, Node/ExpressJS, NodeMailer and
-              some others skills with JavaSE, SQL Oracle and WordPress
-              Developer.
+              JS, HTML5, CSS3/SCSS, Node/ExpressJS, NodeMailer and some others
+              skills with JavaSE, SQL Oracle and WordPress Developer.
             </p>
           </div>
           <div className="title-text skill-box-slides">
             <div className="skills-slides">
               <div className="skills">
                 <p>
-                  React JS/MaterialUI{" "}
+                  React JS{" "}
                   <div className="b-line">
                     <div className="line react">85%</div>
                   </div>
