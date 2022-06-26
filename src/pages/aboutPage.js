@@ -15,7 +15,7 @@ export const AboutPage = () => {
               Development with 2 years experience at Full-Stack Developer.
               Seeking to leverage 4.0 GPA for Database Admin and Emerging Trends
               in Tech, and 3.7 GPA for related expreience for Web Application
-              Programming. Seeking to use good at React JS, MaterialUI, HTML5,
+              Programming. Seeking to use good at React JS, HTML5,
               CSS3/SCSS, Javascript, BootStrap, Wordpress for Font-End skills as
               Capstones Project with good at teamwork skills. Moreover, MongoDB,
               SQL Oracle, Node/Express JS and Nodemailer for additional my
