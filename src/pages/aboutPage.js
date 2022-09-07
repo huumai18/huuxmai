@@ -14,12 +14,12 @@ export const AboutPage = () => {
               Recent diploma graduate with Information Technology major Software
               Development with 2 years experience at Full-Stack Developer.
               Seeking to leverage 4.0 GPA for Database Admin and Emerging Trends
-              in Tech, and 3.7 GPA for related expreience for Web Application
+              in Tech, and 3.7 GPA for related experience for Web Application
               Programming. Seeking to use good at React JS, HTML5,
               CSS3/SCSS, Javascript, BootStrap, Wordpress for Font-End skills as
               Capstones Project with good at teamwork skills. Moreover, MongoDB,
               SQL Oracle, Node/Express JS and Nodemailer for additional my
-              Back-End Skills. And, Java SE Platform for Developer skills. I am
+              Back-End Skills. And, Ruby on Rails for Developer skills. I am
               willing to learn new enhance programming and design skills.
               <Typewriter
                 loop={0}
