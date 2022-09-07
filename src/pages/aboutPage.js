@@ -18,7 +18,7 @@ export const AboutPage = () => {
               Programming. Seeking to use good at React JS, HTML5,
               CSS3/SCSS, Javascript, BootStrap, Wordpress for Font-End skills as
               Capstones Project with good at teamwork skills. Moreover, MongoDB,
-              SQL Oracle, Node/Express JS and Nodemailer for additional my
+              SQL Oracle, and Node/Express JS for additional my
               Back-End Skills. And, Ruby on Rails for Developer skills. I am
               willing to learn new enhance programming and design skills.
               <Typewriter
